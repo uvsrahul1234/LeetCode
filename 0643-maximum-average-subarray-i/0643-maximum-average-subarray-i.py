@@ -1,20 +1,14 @@
 class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
         # Slinding Window T:0(N) S:O(1)
-        l = 0
-        sum = 0
-        avg = float('-inf')
-        for r in range(len(nums)):
-            sum += nums[r]  
-            if r - l + 1 == k:
-                avg = max(avg, sum)
-                sum -= nums[l]
-                l += 1
+        curr_sum = sum(nums[:k])
+        max_sum = curr_sum
 
-            if r == len(nums) - 1:
-                return avg/k
+        for i in range(k, len(nums)):
+            curr_sum += nums[i] - nums[i - k]
+            max_sum = max(curr_sum, max_sum)
         
-        return avg/k
+        return max_sum/k
 
         # Brute Force T:O(N⋅k) S:O(1) 
         # average = float('-inf')
