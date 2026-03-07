@@ -5,6 +5,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0036-valid-sudoku](https://github.com/uvsrahul1234/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 | [0042-trapping-rain-water](https://github.com/uvsrahul1234/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/uvsrahul1234/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Two Pointers
@@ -31,6 +32,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0036-valid-sudoku](https://github.com/uvsrahul1234/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/uvsrahul1234/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -56,4 +58,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/uvsrahul1234/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0036-valid-sudoku](https://github.com/uvsrahul1234/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 <!---LeetCode Topics End-->
