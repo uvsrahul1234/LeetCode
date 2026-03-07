@@ -65,4 +65,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/uvsrahul1234/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
+## Database
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0577-employee-bonus](https://github.com/uvsrahul1234/LeetCode/tree/main/0577-employee-bonus/) | Easy |
 <!---LeetCode Topics End-->
