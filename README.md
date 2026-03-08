@@ -7,6 +7,7 @@
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/uvsrahul1234/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
 | [0042-trapping-rain-water](https://github.com/uvsrahul1234/LeetCode/tree/main/0042-trapping-rain-water/) | Hard |
+| [0128-longest-consecutive-sequence](https://github.com/uvsrahul1234/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/uvsrahul1234/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -34,6 +35,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/uvsrahul1234/LeetCode/tree/main/0036-valid-sudoku/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/uvsrahul1234/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0242-valid-anagram](https://github.com/uvsrahul1234/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/uvsrahul1234/LeetCode/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Divide and Conquer
@@ -69,4 +71,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0577-employee-bonus](https://github.com/uvsrahul1234/LeetCode/tree/main/0577-employee-bonus/) | Easy |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/uvsrahul1234/LeetCode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 <!---LeetCode Topics End-->
