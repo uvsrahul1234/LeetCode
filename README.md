@@ -73,6 +73,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0577-employee-bonus](https://github.com/uvsrahul1234/LeetCode/tree/main/0577-employee-bonus/) | Easy |
+| [1148-article-views-i](https://github.com/uvsrahul1234/LeetCode/tree/main/1148-article-views-i/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
