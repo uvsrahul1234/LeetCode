@@ -6,8 +6,8 @@ class Solution:
         
         count = defaultdict(int)
         for i in range(len(s)):
-            count[ord(s[i]) - ord('a')] += 1
-            count[ord(t[i]) - ord('a')] -= 1
+            count[s[i]] += 1
+            count[t[i]] -= 1
         
         for v, k in count.items():
             if k != 0:
