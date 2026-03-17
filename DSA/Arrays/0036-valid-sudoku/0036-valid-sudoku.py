@@ -1,6 +1,7 @@
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         
+        # T:(N2) S:O(N2)
         rows = defaultdict(set)
         cols = defaultdict(set)
         squares = defaultdict(set) # Key: (r // 3, c // 3)
