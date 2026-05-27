@@ -4,12 +4,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/uvsrahul1234/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/uvsrahul1234/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/uvsrahul1234/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
 | [0239-sliding-window-maximum](https://github.com/uvsrahul1234/LeetCode/tree/master/0239-sliding-window-maximum) |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/uvsrahul1234/LeetCode/tree/main/0001-two-sum/) | Easy |
 | [0049-group-anagrams](https://github.com/uvsrahul1234/LeetCode/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/uvsrahul1234/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0217-contains-duplicate](https://github.com/uvsrahul1234/LeetCode/tree/main/0217-contains-duplicate/) | Easy |
