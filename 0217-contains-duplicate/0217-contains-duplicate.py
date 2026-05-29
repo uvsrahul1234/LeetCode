@@ -1,32 +1,23 @@
 class Solution:
-    def minWindow(self, s: str, t: str) -> str:
-        if t == "" or len(s) < len(t):
-            return ""
-
-        countT, countS = {}, {}
-        for i in t:
-            countT[i] = countT.get(i, 0) + 1
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         
-        have, need = 0, len(countT)
-        res, reslen = [-1, -1], float("infinity")
+        res = []
+        q = deque()
+        l = r = 0
 
-        l = 0
-        for r in range(len(s)):
-            c = s[r]
+        while r < len(nums):
+            while q and q[-1] < nums[r]:
+                q.pop()
+             
+            q.append(nums[r])
 
-            countS[c] = countS.get(c, 0) + 1
-            if c in countT and countT[c] == countS[c]:
-                have += 1
+            if nums[l] > q[0]:
+                q.popleft()
             
-            while have == need:
-                if (r - l + 1) < reslen:
-                    res = [l, r]
-                    reslen = r - l + 1
-
-                countS[s[l]] -= 1
-                if s[l] in countT and countS[s[l]] < countT[s[l]]:
-                    have -= 1
+            if (r + 1) >= k:
+                res.append(q[0])
                 l += 1
-
-        l, r = res
-        return s[l: r + 1]
+            
+            r += 1
+        
+        return res
