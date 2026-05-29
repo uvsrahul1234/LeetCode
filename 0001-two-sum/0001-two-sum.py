@@ -1,12 +1,25 @@
-class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
+if len(s1) > len(s2):
+            return False
         
-        l, r = 0, 0
-        res = set()
-        count = 0
-        while r < len(s):
-            while s[r] in res:
-                res.remove(s[l])
-                l += 1
+        count1, count2 = [0]*26, [0]*26
+
+        for i in s1:
+            count1[ord(i) - ord('a')] += 1
+        
+        for i in range(len(s1)):
+            count2[ord(s2[i]) - ord('a')] += 1
+        
+        if count1==count2:
+            return True
+        
+        l = 0
+        for r in range(len(s1), len(s2)):
             
-            res.add(s[r])
+            count2[ord(s2[l]) - ord('a')] -= 1
+
+            count2[ord(s2[r]) - ord('a')] += 1
+            if count1 == count2:
+                return True
+            
+            l += 1
+        return False
