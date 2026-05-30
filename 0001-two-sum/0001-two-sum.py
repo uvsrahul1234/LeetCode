@@ -1,25 +1,11 @@
-if len(s1) > len(s2):
-            return False
-        
-        count1, count2 = [0]*26, [0]*26
-
-        for i in s1:
-            count1[ord(i) - ord('a')] += 1
-        
-        for i in range(len(s1)):
-            count2[ord(s2[i]) - ord('a')] += 1
-        
-        if count1==count2:
-            return True
-        
-        l = 0
-        for r in range(len(s1), len(s2)):
-            
-            count2[ord(s2[l]) - ord('a')] -= 1
-
-            count2[ord(s2[r]) - ord('a')] += 1
-            if count1 == count2:
-                return True
-            
-            l += 1
-        return False
+class Solution:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+        res = [0] * len(temperatures)
+        for i in range(len(temperatures)):
+            count = 0
+            for j in range(i + 1, len(temperatures)):
+                count += 1
+                if temperatures[j] > temperatures[i]:
+                    res[i] = count
+                    break
+        return res
